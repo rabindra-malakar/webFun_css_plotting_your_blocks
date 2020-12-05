@@ -1,35 +1,61 @@
-/*CSS reset settings here*/
-*{
+/* by -Rabin Malakr */
+/* commenting this section to make it more responsive */
+/* *{ 
     margin: 0px;
     padding: 0px;
-   }
+   } */
+/* this is to set the whole background to silver */
    #wrapper{
     width: 950px;
+    /* height: 500px; */
     background-color: silver;
-    margin: 0px auto;
+    border: 1px solid black;
+    margin: 5px auto;
+    overflow: hidden;
    }
+   /* this is to set the header section  */
    #header{
-    min-height: 150px;
+    min-height: 100px;
     background-color: green;
+    margin: 15px;
+    border: 1px solid turquoise;
    }
+   /* this is to set the navigation section on the left side */
    #navigation{
     min-height: 300px;
     width: 200px;
     background-color: blue;
+    margin-left: 15px;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid turquoise;
    }
+/* this is to set the main content box */
    #main_content{
     min-height: 400px;
-    width: 700px;
+    width: 697px;
     background-color: red;
+    display: inline-block;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    border: 1px solid turquoise;
    }
+/* this is to set the subcontents/squares inside the main content */
    .subcontents{
-    min-height: 200px;
-    width: 210px;
+    min-height: 197px;
+    width: 197px;
     background-color: yellow;
+    display: inline-block;
+    margin: 15px;
+    border: 1px solid turquoise;
    }
+/* this is to set the advertisement bar at the footer location inside the main content */
    #advertisement{
     min-height: 120px;
-    width: 660px;
+    width: 663px;
     background-color: purple;
+    margin: 15px;
+    border: 1px solid turquoise;
    }
+   /* END */
    
